@@ -1,3 +1,4 @@
 include README.rst
 include TODO.rst
 include HISTORY.rst
+recursive-include docs *
