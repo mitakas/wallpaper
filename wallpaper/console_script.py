@@ -1,7 +1,7 @@
 import argparse
 import time
 
-import wallpaper
+from . import Cubic
 
 
 def create_wallpaper():
@@ -14,7 +14,7 @@ def create_wallpaper():
 
     args = parser.parse_args()
 
-    w = wallpaper.Cubic(filename=args.filename)
+    w = Cubic(filename=args.filename)
     w.paint()
 
 
