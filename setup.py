@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='wallpaper',
-    version='0.1',
+    version='0.2',
     description='',
     long_description=open('README.rst').read() + '\n' +
             open('HISTORY.rst').read(),
