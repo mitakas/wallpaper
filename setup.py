@@ -21,7 +21,7 @@ setup(
     install_requires=[
         'setuptools',
         'Pillow',
-        'Palettable',
+        'palettable',
     ],
     entry_points={
         'console_scripts': [
