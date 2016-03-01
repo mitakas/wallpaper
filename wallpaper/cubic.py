@@ -40,7 +40,7 @@ class Cubic(Wallpaper):
     def next_color(self):
         """
         Returns the next color. Currently returns a random
-        color from the Colorbrewer diverging BrBG_11 palette.
+        color from the Colorbrewer 11-class diverging BrBG palette.
 
         Returns
         -------
