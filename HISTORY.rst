@@ -1,6 +1,11 @@
 History
 =======
 
+0.2.3.dev0 (unreleased)
+-----------------------
+
+* fix the image in the documentation
+
 0.2.2 (2016-03-01)
 ------------------
 
