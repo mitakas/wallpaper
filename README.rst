@@ -8,6 +8,8 @@ The  default colorscheme is supplied by `Palettable <https://jiffyclub.github.io
 
 Run ``wallpaper`` in your console to get a PNG image with the name ``wallpaper-<current-time>.png``.
 
+Python 2 and 3 are supported.
+
 ----
 
 TODO

@@ -3,7 +3,9 @@ from PIL import Image
 
 class Wallpaper(object):
     """
-    Creating a (very) simple wallpaper.
+    Base class for all wallpapers.
+
+    Creates a (very) simple single-color wallpaper.
 
     Parameters
     ----------
