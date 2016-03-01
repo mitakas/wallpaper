@@ -1,21 +1,15 @@
+# https://travis-ci.org/mitakas/wallpaper
 language: python
 
-sudo: false
-
-cache:
-  directories:
-    - $HOME/.cache/pip
+cache: pip
 
 python:
   - "2.7"
   - "3.4"
 
 install:
-  - travis_retry pip install --upgrade pip pytest wallpaper
+  - pip install .
 
-# run some tests
+# run the tests
 script:
   - py.test
-
-after_success:
-  - echo "Success!"
