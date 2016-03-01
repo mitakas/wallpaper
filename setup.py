@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name='wallpaper',
-    version='0.2.2.dev0',
-    description='',
+    version='0.2.2',
+    description='Generate wallpapers with Pillow and Palettable.',
     long_description=open('README.rst').read() + '\n' +
             open('HISTORY.rst').read(),
     url='https://github.com/mitakas/wallpaper',

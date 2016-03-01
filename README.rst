@@ -7,7 +7,7 @@ This project generates (various) wallpapers using `Python <https://www.python.or
 and `Pillow <https://python-pillow.org/>`_. The  default colorscheme is the `Colorbrewer <http://colorbrewer2.org/>`_
 11-class diverging BrBG palette (supplied by `Palettable <https://jiffyclub.github.io/palettable/>`_).
 
-Put ``wallpaper`` in your console to get a PNG image with the name ``wallpaper-<current-time>.png``.
+Run ``wallpaper`` in your console to get a PNG image with the name ``wallpaper-<current-time>.png``.
 
 Python 2 and 3 are supported.
 
@@ -18,7 +18,6 @@ TODO
 
 * Better color selection
 * Documentation
-* Command-line tool with options
 
 .. |logo| image:: https://raw.githubusercontent.com/mitakas/wallpaper/master/docs/wallpaper.png
     :alt: Logo
