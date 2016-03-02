@@ -11,13 +11,34 @@ Run ``wallpaper`` in your console to get a PNG image with the name ``wallpaper-<
 
 Python 2 and 3 are supported.
 
-----
+Quick Start
+===========
+
+Install and run::
+
+    $ pip install wallpaper
+    $ wallpaper
+
+Usage
+=====
+
+* Creating a wallpaper
+
+  .. code:: python
+
+      from wallpaper import Cubic
+
+      image = Cubic()
+      image.paint()
+
+* Implementing your own
+
+  Inherit from ``wallpaper.Wallpaper`` and implement the ``paint_pattern`` function.
 
 TODO
 ====
 
 * Better color selection
-* Documentation
 
 .. |logo| image:: https://raw.githubusercontent.com/mitakas/wallpaper/master/docs/wallpaper.png
     :alt: Logo

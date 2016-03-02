@@ -6,7 +6,8 @@ History
 
 * fix the image in the documentation
 * include the Wallpaper-class for easier use
-* handle relative paths better, e.g. ~/Desktop/wallpaper.png
+* handle relative paths better, e.g. ``~/Desktop/wallpaper.png``
+* add usage information
 
 0.2.2 (2016-03-01)
 ------------------
